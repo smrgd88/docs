@@ -1,0 +1,4 @@
+register & login step.
+
+1. create detailProfile ==> cn, created_seq, userId, passWd, created_nickNm 
+2. create new Rchat id(in detailProfile) [username = userId, name = created_nickNM
