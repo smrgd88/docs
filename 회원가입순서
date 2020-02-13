@@ -1,4 +1,7 @@
-register & login step.
+register & login ... steps
 
 1. create detailProfile ==> cn, created_seq, userId, passWd, created_nickNm 
-2. create new Rchat id(in detailProfile) [username = userId, name = created_nickNM
+2. create new Rchat id(in detailProfile) [username = userId, name = created_nickNM, pass = passWd, email = generatedEmail]
+3. login with username & pass ==> get authToken ==> login use authToken (with websocket)
+4. get Rooms use authToken ==> _rid & get userlist from each Room use _rid
+5. join Room use _rid
